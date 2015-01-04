@@ -67,9 +67,9 @@ packaging scripts take the desired package version as first argument.
 
 When the packaging is complete, the manifest which lists all available
 package version is updated for the package type. Manifests are plain
-text files which list each available version on a separate line. 
+text files which list each available version on a separate line.
 
-They're uploaded to the S3 bucket as `manifest.<type>` files, 
+They're uploaded to the S3 bucket as `manifest.<type>` files,
 e.g. the manifest for PHP is `manifest.php`.
 
 Before packaging anything, you need to make sure that you've a Zlib

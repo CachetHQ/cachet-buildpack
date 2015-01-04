@@ -14,7 +14,7 @@ function swift_upload() {
 
   # Require swift client > 1.0
   # if [ "x$dest" != "x" ] ; then
-  #   opts="--object-name $dest"   
+  #   opts="--object-name $dest"
   # fi
 
   swift --verbose ${opts} upload ${SWIFT_BUCKET} "${file}"
