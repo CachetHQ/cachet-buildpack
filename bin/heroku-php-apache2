@@ -5,4 +5,3 @@ if [ $# -eq 1 ] ; then
 fi
 
 exec "/app/run"
-
